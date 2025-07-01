@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Unofficial YimMenu Injector
+
+How to use safely:
+
+[Steam version]
+- Open Steam
+- Right-click GTA 5 (Enhanced)
+- Click "Properties"
+- In "Launch Options", type:
+  nobattleye
+
+[Rockstar Launcher]
+- Open Rockstar Games Launcher
+- Go to "Settings"
+- Scroll to GTA V
+- Uncheck:
+  "Enable Battleye Anti-Cheat"</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        YII=
+</value>
+  </data>
+</root>
