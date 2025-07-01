@@ -57,10 +57,10 @@ namespace YY
 
         private void btnInject_Click(object sender, EventArgs e)
         {
-            string dllPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "YimMenu.dll");
+            string dllPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "YimMenuV2.dll");
             if (!File.Exists(dllPath))
             {
-                MessageBox.Show("YimMenu.dll not found!");
+                MessageBox.Show("YimMenuV2.dll not found!");
                 return;
             }
 
