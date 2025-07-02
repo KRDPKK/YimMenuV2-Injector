@@ -127,7 +127,7 @@ How to use safely:
 - Right-click GTA 5 (Enhanced)
 - Click "Properties"
 - In "Launch Options", type:
-  nobattleye
+           -nobattleye
 
 [Rockstar Launcher]
 - Open Rockstar Games Launcher
@@ -139,51 +139,55 @@ How to use safely:
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        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
-        YII=
+        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
 </value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>How to Setup: Click the Yimmenu link button then dowload the dll and place it in the same directory as this application is thats it youre ready to go!
+
+ALWAYS CHECK THE YIMMENUV2 LINK TO GET THE LATEST VERSION!</value>
   </data>
 </root>
