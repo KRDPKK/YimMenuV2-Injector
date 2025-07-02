@@ -1,7 +1,7 @@
 # YimMenu Injector (Unofficial)
 
 This is a lightweight, unofficial DLL injector for **GTA V** written in **C# WinForms**.  
-It is designed to inject `YimMenu.dll` into `GTA5.exe` with a single click and no extra options.
+It is designed to inject `YimMenuV2.dll` into `GTA5_Enhanced` with a single click and no extra options.
 
 ## 💻 About
 
